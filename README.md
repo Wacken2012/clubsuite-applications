@@ -29,7 +29,7 @@ ClubSuite Applications ermöglicht die digitale Erfassung und Bearbeitung von Mi
 
 ```bash
 cd /path/to/nextcloud/apps
-git clone https://github.com/clubsuite/clubsuite-applications.git
+git clone https://github.com/ClubSuite-for-Nextcloud/clubsuite-applications.git
 cd clubsuite-applications
 composer install --no-dev
 npm ci && npm run build
@@ -66,7 +66,7 @@ AGPL v3 – Siehe [LICENSE](LICENSE)
 
 ## 🐛 Bugs & Feature Requests
 
-[GitHub Issues](https://github.com/clubsuite/clubsuite-applications/issues)
+[GitHub Issues](https://github.com/ClubSuite-for-Nextcloud/clubsuite-applications/issues)
 
 ---
 

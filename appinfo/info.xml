@@ -21,11 +21,11 @@ Erfordert ClubSuite Core. Optional: ClubSuite Finance für Buchungsintegration.]
     <author>Stefan Schulz</author>
     <namespace>ClubSuiteApplications</namespace>
     <category>organization</category>
-    <website>https://github.com/clubsuite/clubsuite-applications</website>
-    <bugs>https://github.com/clubsuite/clubsuite-applications/issues</bugs>
-    <repository type="git">https://github.com/clubsuite/clubsuite-applications.git</repository>
-    <screenshot>https://raw.githubusercontent.com/clubsuite/clubsuite-applications/main/screenshots/list.png</screenshot>
-    <screenshot>https://raw.githubusercontent.com/clubsuite/clubsuite-applications/main/screenshots/form.png</screenshot>
+    <website>https://github.com/ClubSuite-for-Nextcloud/clubsuite-applications</website>
+    <bugs>https://github.com/ClubSuite-for-Nextcloud/clubsuite-applications/issues</bugs>
+    <repository type="git">https://github.com/ClubSuite-for-Nextcloud/clubsuite-applications.git</repository>
+    <screenshot>https://raw.githubusercontent.com/ClubSuite-for-Nextcloud/clubsuite-applications/main/screenshots/list.png</screenshot>
+    <screenshot>https://raw.githubusercontent.com/ClubSuite-for-Nextcloud/clubsuite-applications/main/screenshots/form.png</screenshot>
     <dependencies>
         <nextcloud min-version="28" max-version="32" />
         <php min-version="8.1" max-version="8.3" />
