@@ -1,0 +1,86 @@
+/**
+ * ClubSuite Applications - Main Stylesheet
+ * © 2026 Stefan Schulz
+ */
+
+#clubsuite-applications-root {
+    width: 100%;
+    height: 100%;
+    min-height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+}
+
+/* Loading State */
+.clubsuite-loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+/* Table Styles */
+.clubsuite-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.clubsuite-table th,
+.clubsuite-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.clubsuite-table th {
+    background-color: var(--color-background-dark);
+    font-weight: 600;
+}
+
+.clubsuite-table tr:hover {
+    background-color: var(--color-background-hover);
+}
+
+/* Status Badges */
+.status-badge {
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.status-pending {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+.status-approved {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.status-rejected {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+/* Pagination */
+.clubsuite-pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 16px;
+}
+
+.clubsuite-pagination button {
+    padding: 8px 16px;
+}
+
+/* Empty State */
+.clubsuite-empty {
+    text-align: center;
+    padding: 40px;
+    color: var(--color-text-maxcontrast);
+}

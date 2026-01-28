@@ -1,0 +1,9 @@
+{
+  "translations": {
+    "appName": "Applications & Final Invoices",
+    "applications": "Applications",
+    "invoices": "Invoices",
+    "form": "Form"
+  },
+  "pluralForm": "nplurals=2; plural=(n != 1);"
+}

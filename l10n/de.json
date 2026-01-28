@@ -1,0 +1,9 @@
+{
+  "translations": {
+    "appName": "Mitgliedsanträge & Abschlussrechnungen",
+    "applications": "Anträge",
+    "invoices": "Rechnungen",
+    "form": "Formular"
+  },
+  "pluralForm": "nplurals=2; plural=(n != 1);"
+}
